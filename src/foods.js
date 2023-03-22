@@ -1,4 +1,4 @@
-[
+export const foods = [
   {
     "name": "Pizza",
     "calories": 400,
@@ -102,3 +102,6 @@
     "servings": 1
   }
 ]
+
+export const foodwithId = [...foods].map(elem=>{
+  return {...elem,_id:Math.floor(Math.random()*88888888) + 11111111}})
