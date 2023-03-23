@@ -22,7 +22,6 @@ export default function AddFood({handleAddFood}) {
       }
 
       const handleSubmit = (e) => {
-        console.log(newfood,handleAddFood)
         e.preventDefault();
         handleAddFood(newfood);
         setNewFood(initialState);

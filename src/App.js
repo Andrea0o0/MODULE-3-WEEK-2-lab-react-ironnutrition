@@ -18,7 +18,6 @@ function App() {
   const handleAddFood = (Food) => {
     let newfood = [...food]
     newfood.push(Food)
-    console.log(Food,newfood)
     setFood(newfood)
   }
 
